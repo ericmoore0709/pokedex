@@ -1,0 +1,38 @@
+.pokedex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em auto;
+    width: 100%;
+}
+
+.pokecard-container {
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2em 1em;
+    max-width: 300px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.pokecard-container>div {
+    margin: 1em auto;
+}
+
+.pokecard-container > img {
+    width: 150px;
+    margin: auto;
+}
+
+.pokename {
+    color: blue;
+}
+
+.poketype {
+    border: 1px solid black;
+    padding: 0.25em 0.5em;
+    border-radius: 1rem;
+    height: fit-content;
+}
